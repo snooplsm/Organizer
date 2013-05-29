@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/source/repos/mobile-native/!svn/ver/16663/trunk/Android/Libraries/Twitter/src/oauth/signpost/exception
+END
+OAuthException.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/source/repos/mobile-native/!svn/ver/16663/trunk/Android/Libraries/Twitter/src/oauth/signpost/exception/OAuthException.java
+END
+OAuthNotAuthorizedException.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/source/repos/mobile-native/!svn/ver/16663/trunk/Android/Libraries/Twitter/src/oauth/signpost/exception/OAuthNotAuthorizedException.java
+END
+OAuthCommunicationException.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/source/repos/mobile-native/!svn/ver/16663/trunk/Android/Libraries/Twitter/src/oauth/signpost/exception/OAuthCommunicationException.java
+END
+OAuthExpectationFailedException.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/source/repos/mobile-native/!svn/ver/16663/trunk/Android/Libraries/Twitter/src/oauth/signpost/exception/OAuthExpectationFailedException.java
+END
+OAuthMessageSignerException.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/source/repos/mobile-native/!svn/ver/16663/trunk/Android/Libraries/Twitter/src/oauth/signpost/exception/OAuthMessageSignerException.java
+END

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/source/repos/mobile-native/!svn/ver/16663/trunk/Android/Libraries/Twitter/src/oauth/signpost/http
+END
+HttpParameters.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/source/repos/mobile-native/!svn/ver/16663/trunk/Android/Libraries/Twitter/src/oauth/signpost/http/HttpParameters.java
+END
+HttpRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/source/repos/mobile-native/!svn/ver/16663/trunk/Android/Libraries/Twitter/src/oauth/signpost/http/HttpRequest.java
+END
+HttpResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/source/repos/mobile-native/!svn/ver/16663/trunk/Android/Libraries/Twitter/src/oauth/signpost/http/HttpResponse.java
+END

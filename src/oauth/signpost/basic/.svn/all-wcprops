@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/source/repos/mobile-native/!svn/ver/16663/trunk/Android/Libraries/Twitter/src/oauth/signpost/basic
+END
+DefaultOAuthProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/source/repos/mobile-native/!svn/ver/16663/trunk/Android/Libraries/Twitter/src/oauth/signpost/basic/DefaultOAuthProvider.java
+END
+DefaultOAuthConsumer.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/source/repos/mobile-native/!svn/ver/16663/trunk/Android/Libraries/Twitter/src/oauth/signpost/basic/DefaultOAuthConsumer.java
+END
+HttpURLConnectionResponseAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/source/repos/mobile-native/!svn/ver/16663/trunk/Android/Libraries/Twitter/src/oauth/signpost/basic/HttpURLConnectionResponseAdapter.java
+END
+UrlStringRequestAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/source/repos/mobile-native/!svn/ver/16663/trunk/Android/Libraries/Twitter/src/oauth/signpost/basic/UrlStringRequestAdapter.java
+END
+HttpURLConnectionRequestAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/source/repos/mobile-native/!svn/ver/16663/trunk/Android/Libraries/Twitter/src/oauth/signpost/basic/HttpURLConnectionRequestAdapter.java
+END
