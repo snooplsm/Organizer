@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/source/repos/mobile-native/!svn/ver/16663/trunk/Android/Libraries/Twitter/src/oauth/signpost
+END
+AbstractOAuthProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/source/repos/mobile-native/!svn/ver/16663/trunk/Android/Libraries/Twitter/src/oauth/signpost/AbstractOAuthProvider.java
+END
+AbstractOAuthConsumer.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/source/repos/mobile-native/!svn/ver/16663/trunk/Android/Libraries/Twitter/src/oauth/signpost/AbstractOAuthConsumer.java
+END
+OAuth.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/source/repos/mobile-native/!svn/ver/16663/trunk/Android/Libraries/Twitter/src/oauth/signpost/OAuth.java
+END
+OAuthProviderListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/source/repos/mobile-native/!svn/ver/16663/trunk/Android/Libraries/Twitter/src/oauth/signpost/OAuthProviderListener.java
+END
+OAuthProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/source/repos/mobile-native/!svn/ver/16663/trunk/Android/Libraries/Twitter/src/oauth/signpost/OAuthProvider.java
+END
+OAuthConsumer.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/source/repos/mobile-native/!svn/ver/16663/trunk/Android/Libraries/Twitter/src/oauth/signpost/OAuthConsumer.java
+END
