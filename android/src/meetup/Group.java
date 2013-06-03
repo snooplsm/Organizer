@@ -21,6 +21,7 @@ public class Group implements Serializable
 		longitude = o.optString("group_lon");
 		joinMode = o.optString("join_mode");
 		urlName = o.optString("urlname");
+		photoSet = new PhotoSet(o.optJSONObject("group_photo"));
 		who = o.optString("who");
 	}
 	

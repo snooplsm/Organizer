@@ -137,7 +137,7 @@ public class OrganizerActivity extends SherlockFragmentActivity {
 		public void onEventClick(Event event) {
 			System.out.println(event);
 			FragmentEventEdit fee = FragmentEventEdit.newInstance(event);
-			getSupportFragmentManager().beginTransaction().replace(R.id.fragment_secondary_content, fee).commit();
+			getSupportFragmentManager().beginTransaction().addToBackStack(null).replace(R.id.fragment_secondary_content, fee).commit();
 		}
 	};
 	

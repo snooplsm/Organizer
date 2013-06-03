@@ -2,6 +2,8 @@ package meetup;
 
 import java.io.Serializable;
 
+import org.json.JSONObject;
+
 import com.google.gson.annotations.SerializedName;
 
 public class PhotoSet implements Serializable {
@@ -14,6 +16,13 @@ public class PhotoSet implements Serializable {
 	private String photoLink;
 	@SerializedName("thumb_link")
 	private String thumbLink;
+	
+	public PhotoSet(JSONObject o ) {
+		thumbLink = o.optString("thumb_link");
+		photoId = o.optString("photo_id");
+		highresLink = o.optString("highres_link");
+		photoLink = o.optString("photo_link");
+	}
 	
 	public String getHighresLink() {
 		return highresLink;

@@ -54,7 +54,7 @@ public class FragmentLogin extends SherlockFragment {
 		webView.setWebViewClient(new WebViewClient() {
 			@Override
 			public boolean shouldOverrideUrlLoading(WebView view, String url) {
-				if(url.startsWith("organizer://meetup")) {
+				if(url.startsWith("http://wmwm.us/organizer")) {
 					Uri uri = Uri.parse(url);
 					verifier = uri.getQueryParameter("oauth_verifier");
 					verifyToken();

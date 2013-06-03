@@ -113,7 +113,7 @@ public class FragmentEvent extends SherlockFragment {
 					long arg3) {
 				// TODO Auto-generated method stub
 				if(onEventClickedListener!=null) {
-					onEventClickedListener.onEventClick(events.get(arg2));
+					onEventClickedListener.onEventClick(((EventItemView)arg1).getEvent());
 				}
 			}
 		});

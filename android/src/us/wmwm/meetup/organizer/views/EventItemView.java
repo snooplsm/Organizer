@@ -23,6 +23,8 @@ public class EventItemView extends RelativeLayout {
 	TextView date;
 	TextView venueName;
 	
+	Event event;
+	
 	static DateFormat HOUR_FORMAT = DateFormat.getTimeInstance(DateFormat.SHORT);
 	
 	public EventItemView(Context context) {
@@ -35,14 +37,22 @@ public class EventItemView extends RelativeLayout {
 		venueName = (TextView) findViewById(R.id.venue_name);
 	}
 	
+	public Event getEvent() {
+		return event;
+	}
+	
 	public void setEvent(Event event) {
+		this.event = event;
 		String url = null;
 		if(event.getGroup().getPhotoSet()!=null) {
 			PhotoSet ps = event.getGroup().getPhotoSet();
 			if(ps!=null) {
 				url = ps.getThumbLink();
 			}
+		} else {
+			url = event.getGroup().getPhotoUrl();
 		}
+		
 		thumbnail.setImageUrl(url);
 		groupName.setText(event.getGroup().getName());
 		eventName.setText(event.getName());

@@ -63,7 +63,7 @@ public class MeetupClient {
 			OAuthNotAuthorizedException, OAuthExpectationFailedException,
 			OAuthCommunicationException, UnsupportedEncodingException {
 		String tokenUrl = provider.retrieveRequestToken(consumer,
-				"organizer://meetup");
+				"http://wmwm.us/organizer");
 		Uri uri = Uri.parse(tokenUrl);
 		String token = uri.getQueryParameter("oauth_token");
 		String authorizeUrl = "http://www.meetup.com/authorize/?oauth_token="
